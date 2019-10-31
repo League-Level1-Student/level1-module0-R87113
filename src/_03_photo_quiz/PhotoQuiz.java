@@ -50,7 +50,7 @@ public class PhotoQuiz {
 	quizWindow.remove(picture);
 		// 10. find another image and create it (might take more than one line
 	// of code)
-		String image2 = "https://images3.alphacoders.com/792/792457.jpg";
+		String image2 = "https://i.ytimg.com/vi/jepREBvKx2I/maxresdefault.jpg";
 	// 2. create a variable of type "Component" that will hold your image
 		Component picture2 = createImage(image2);
 	// 11. add the second image to the quiz window
@@ -59,7 +59,7 @@ public class PhotoQuiz {
 		quizWindow.pack();
 	// 13. ask another question
 		String question2 = JOptionPane.showInputDialog("What Titan is this?");
-	if(question2.contentEquals("Scorch")) {
+	if(question2.contentEquals("Legion")) {
 			JOptionPane.showMessageDialog(null, "Correct!");
 	}
 		// 8. print "INCORRECT" if the answer is wrong

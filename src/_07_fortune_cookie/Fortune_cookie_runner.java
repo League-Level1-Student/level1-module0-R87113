@@ -1,9 +1,9 @@
 package _07_fortune_cookie;
 
 
-	public class FortuneCookieRunner {
+	public class Fortune_cookie_runner {
         public static void main(String[] args) {
-            new FortuneCookie().showButton();
+            new Fortune_cookie().showButton();
       }
    }
 

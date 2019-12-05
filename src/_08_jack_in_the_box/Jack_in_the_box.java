@@ -16,7 +16,6 @@ public class Jack_in_the_box implements ActionListener{
 	int okay = 0;
 	JFrame Frame = new JFrame();
 
-
 	public static void main(String[] args) {
 	
 new Jack_in_the_box().showButton();
@@ -79,7 +78,7 @@ System.out.println(okay);
 if (okay == 5) {
 	Frame.add(createLabelImage("jackInTheBox.png"));
 	playSound("homer-woohoo.wav");
-	
+	Frame.pack();
 }
 	
 }
